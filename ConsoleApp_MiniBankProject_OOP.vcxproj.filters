@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\DataBaseLayer_BankProject">
+      <UniqueIdentifier>{e55bca78-6859-4bdd-abcd-694933d33241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LogicalLayer_BankProject">
+      <UniqueIdentifier>{3f7cde8d-f9e2-4125-b69e-e401a90d62f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UILayer_BankProject">
+      <UniqueIdentifier>{960608b4-e9a1-4459-831b-3388f2b38be8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UILayer_BankProject\UIAllMenues_BankProject">
+      <UniqueIdentifier>{6c7a5a8f-0fa3-4850-899a-42c3bae4c691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UILayer_BankProject\UIClients_BankProject">
+      <UniqueIdentifier>{9e775c01-31e0-4ce7-bb11-6e2e048305ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UILayer_BankProject\UICurrencies_BankProject">
+      <UniqueIdentifier>{db357904-77af-48a8-a63c-1ba73b7d5d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UILayer_BankProject\UIRegisters_BankProject">
+      <UniqueIdentifier>{1341f9e7-8115-46be-a5a1-43fab868056c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UILayer_BankProject\UITransactions_BankProject">
+      <UniqueIdentifier>{a0d39f7d-dea4-4dbe-b7f3-3d02e7a639ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UILayer_BankProject\UITransfer_BankProject">
+      <UniqueIdentifier>{da0aeb40-24b5-4e86-9178-570ce12ab854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UILayer_BankProject\UIUsers_BankProject">
+      <UniqueIdentifier>{b08c33ed-ced6-41f2-a0b1-eacb474e7c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MyLibrary">
+      <UniqueIdentifier>{5d7d2a3d-92b0-4c02-9e52-def31e55baf3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConsoleApp_MiniBankProject_OOP.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DataBaseLayer_BankProject\clsGetData.h">
+      <Filter>Header Files\DataBaseLayer_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="DataBaseLayer_BankProject\clsSaveData.h">
+      <Filter>Header Files\DataBaseLayer_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicalLayer_BankProject\clsBanckClient.h">
+      <Filter>Header Files\LogicalLayer_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicalLayer_BankProject\clsCurrency.h">
+      <Filter>Header Files\LogicalLayer_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicalLayer_BankProject\clsUser.h">
+      <Filter>Header Files\LogicalLayer_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicalLayer_BankProject\CurrentUser.h">
+      <Filter>Header Files\LogicalLayer_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UIAllMenues_BankProject\clsMainMenueScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UIAllMenues_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UIAllMenues_BankProject\clsManageUsersMenueScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UIAllMenues_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UIAllMenues_BankProject\clsScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UIAllMenues_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UIClients_BankProject\clsAddNewClientScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UIClients_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UIClients_BankProject\clsClientsListScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UIClients_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UIClients_BankProject\clsDeleteClientScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UIClients_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UIClients_BankProject\clsFindClientScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UIClients_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UIClients_BankProject\clsUpdataClientScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UIClients_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UICurrencies_BankProject\clsCurrencyCalculatorScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UICurrencies_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UICurrencies_BankProject\clsCurrencyExchangeMenueScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UICurrencies_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UICurrencies_BankProject\clsFindCurrencyScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UICurrencies_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UICurrencies_BankProject\clsListCurrenciesScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UICurrencies_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UICurrencies_BankProject\clsUpdateRateScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UICurrencies_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UIRegisters_BankProject\clsLoginsAndLogOutsRegisterScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UIRegisters_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UIRegisters_BankProject\clsLogInScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UIRegisters_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UIRegisters_BankProject\clsLoginsRegisterScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UIRegisters_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UITransactions_BankProject\clsDepositScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UITransactions_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UITransactions_BankProject\clsTotalBalancesScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UITransactions_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UITransactions_BankProject\clsTransactionsScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UITransactions_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UITransactions_BankProject\clsWithdrawScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UITransactions_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UITransfer_BankProject\clsTransferHistoryScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UITransfer_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UITransfer_BankProject\clsTransferScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UITransfer_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UIUsers_BankProject\clsAddNewUserScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UIUsers_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UIUsers_BankProject\clsDeleteUserScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UIUsers_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UIUsers_BankProject\clsFindUserScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UIUsers_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UIUsers_BankProject\clsUpdateUserScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UIUsers_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="UILayer_BankProject\UIUsers_BankProject\clsUsersListScreen.h">
+      <Filter>Header Files\UILayer_BankProject\UIUsers_BankProject</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLibrary\clsString.h">
+      <Filter>Header Files\MyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLibrary\clsUtil.h">
+      <Filter>Header Files\MyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLibrary\clsDate.h">
+      <Filter>Header Files\MyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLibrary\clsInput.h">
+      <Filter>Header Files\MyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLibrary\clsValidate.h">
+      <Filter>Header Files\MyLibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="LogicalLayer_BankProject\clsPerson.h">
+      <Filter>Header Files\LogicalLayer_BankProject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Clients.txt" />
+    <Text Include="Currencies.txt" />
+    <Text Include="RegisterLogin.txt" />
+    <Text Include="RegisterLoginAndLogOut.txt" />
+    <Text Include="Users.txt" />
+    <Text Include="TransferHistory.txt" />
+  </ItemGroup>
+</Project>

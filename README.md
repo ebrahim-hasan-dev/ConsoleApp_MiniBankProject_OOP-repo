@@ -1,0 +1,117 @@
+﻿# 🏦 Simple Bank Management System (C++)
+
+A robust console-based application built with **C++** using a Object Oriented Programming approach. This system manages banking operations, customer data, and administrative user controls with a sophisticated permission system with login and logout logs, and use my custom classes like clsDate, clsInput, clsUtil, clsString and clsValidate.
+
+---
+
+## 🚀 Key Features
+
+### 👥 Customer Management
+* **Full CRUD Operations:** Add, Find, Edit, and Delete customers.
+* **View Records:** Display a comprehensive list of all customer data.
+
+### 💰 Transactions Management
+* **Deposit & Withdraw:** Securely manage account balances.
+* **Total Balances:** View a summary of all customer account balances.
+* **Transfer:** The ability to transfer funds from one account to another.
+* **Transfers History:** View all transfer history.
+
+### 🔐 User & Security Management
+* **Login System:** Secure access requiring a Username and Password.
+* **User Administration:** Complete management of system users (Add, Edit, Delete, Find).
+* **Advanced Permissions:** A granular access control system using **Bitwise Operators** to grant or deny specific functionalities to users.
+
+---
+
+### 🔹 Data Persistence (Flat-File DB)
+* **Text-Based Storage:** All data (Customers & Users) is stored in `.txt` files.
+* **Custom Separators:** Data is parsed using a specific separator (e.g., `(//)`) to distinguish between record fields.
+* **Record Handling:** Efficient reading and writing logic to sync local data structures with the text files.
+
+### 👥 Currency Exchange
+* **List Currencies:** View all currencies in the world.
+* **Find Currency:** Display a currency information.
+* **Update Rate:** Update the rate of a specific currency.
+* **Currency Calculator:** The ability to convert a specific amount from one currency to another.
+
+### 👥 Login & logout
+* **Login & logout:** Displays user login and logout records along with date and time.
+
+---
+
+### 💻 Tech Stack
+* **Language:** C++
+* **Paradigm:** Object Oriented programming
+* **Environment:** Console Application (CLI)
+
+---
+
+### 📂 Project Structure
+* `Clients.txt`: Stores customer records.
+* `Users.txt`: Stores system user records and their permission masks.
+* `RegisterLogin.txt`: System login data storage.
+* `RegisterLoginAndLogOut.txt`: Storing login and logout transactions in the system.
+* `TransferHistory.txt`: Storing all transfer transactions from one account to another.
+* `Currencies.txt`: View all currencies in the world.
+
+---
+
+### 🚀 How to Run
+1. **Clone the repository.**
+2. **Setup Data Files:** Ensure the `.txt` files are in the same directory.
+3. **Run:** Execute the application.
+
+---
+
+### 🔐 Default Credentials
+To access the system and explore all features, use the following administrator account:
+
+| Field | Value |
+| :--- | :--- |
+| **Username** | `admin` |
+| **Password** | `1234` |
+
+> **Note:** This user is granted **Full Permissions** (`pAll`), allowing you to test every module in the system (Clients, Transactions, and User Management).
+
+---
+
+## ⚠️ Important Execution Note
+
+For the application to function correctly, the database files (**`Clients.txt`**, **`Users.txt`**, **`RegisterLogin.txt`**, **`RegisterLoginAndLogOut.txt`**, **`TransferHistory.txt`** and **`Currencies.txt`**) must be located in the same directory as the code (**`.cpp`**) file. 
+
+The program uses relative paths to read and write data. If these files are missing from the project folder, the system will not be able to load or save any records.
+
+## ⚠️ Important Note
+
+The password, username, and account number were encrypted with a simple algorithm before being recorded in text files. This applies to both users and customers, and the encryption was decrypted when this information was retrieved and displayed within the system.
+
+---
+
+
+## 🛠️ Technical Highlights
+
+### 🔹 Permissions System (Bitwise Logic)
+The system utilizes **Enums** and **Bitwise AND &** operations to manage user permissions efficiently. Each permission is represented by a binary power (1, 2, 4, 8, etc.), allowing multiple permissions to be stored in a single integer.
+
+
+```cpp
+enum enPermissions {
+    pAll = -1, pListClients = 1, pAddNewClient = 2, 
+    pDeleteClient = 4, pUpdateClients = 8, pFindClient = 16, 
+    pTranactions = 32, pManageUsers = 64
+};
+```
+
+## 👤 About the Author
+
+**Ebrahim Hasan**
+A passionate Software Developer with a solid foundation in Computer Science. My journey started with learning the basics of the C++ language (Functional programming), then mastering **Algorithms, Object Oriented Programming and Data Structures** in C++, then learning C#, .NET and SQL Server Database, which paved the way for building complex systems using **C# and .NET**.
+
+* **Expertise:** Desktop Applications (WinForms), SQL Server Database Design, and Logic Automation.
+* **Key Projects:** Driver License Management System, Code Generator Tool.
+* **Current Goal:** Transitioning into Web Full-stack Development (C#/.NET Backend).
+
+---
+📫 **Connect with me:**
+* 📧 **Email:** [ebrahim-hasan-dev@gmail.com](mailto:ebrahim-hasan-dev@gmail.com)
+* 💼 **LinkedIn:** [Your Profile Name](https://linkedin.com/in/ebrahim-hasan)
