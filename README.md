@@ -21,13 +21,6 @@ A robust console-based application built with **C++** using a Object Oriented Pr
 * **User Administration:** Complete management of system users (Add, Edit, Delete, Find).
 * **Advanced Permissions:** A granular access control system using **Bitwise Operators** to grant or deny specific functionalities to users.
 
----
-
-### 🔹 Data Persistence (Flat-File DB)
-* **Text-Based Storage:** All data (Customers & Users) is stored in `.txt` files.
-* **Custom Separators:** Data is parsed using a specific separator (e.g., `(//)`) to distinguish between record fields.
-* **Record Handling:** Efficient reading and writing logic to sync local data structures with the text files.
-
 ### 👥 Currency Exchange
 * **List Currencies:** View all currencies in the world.
 * **Find Currency:** Display a currency information.
@@ -36,6 +29,13 @@ A robust console-based application built with **C++** using a Object Oriented Pr
 
 ### 👥 Login & logout
 * **Login & logout:** Displays user login and logout records along with date and time.
+
+---
+
+### 🔹 Data Persistence (Flat-File DB)
+* **Text-Based Storage:** All data (Customers & Users) is stored in `.txt` files.
+* **Custom Separators:** Data is parsed using a specific separator (e.g., `(//)`) to distinguish between record fields.
+* **Record Handling:** Efficient reading and writing logic to sync local data structures with the text files.
 
 ---
 
