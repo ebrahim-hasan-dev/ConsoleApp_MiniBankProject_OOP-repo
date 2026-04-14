@@ -75,11 +75,13 @@ To access the system and explore all features, use the following administrator a
 
 ---
 
-## ⚠️ Important Execution Note
+## ⚠️ Important Execution Notes
 
-For the application to function correctly, the database files (**`Clients.txt`**, **`Users.txt`**, **`RegisterLogin.txt`**, **`RegisterLoginAndLogOut.txt`**, **`TransferHistory.txt`** and **`Currencies.txt`**) must be located in the same directory as the code (**`.cpp`**) file. 
+1- For the application to function correctly, the database files (**`Clients.txt`**, **`Users.txt`**, **`RegisterLogin.txt`**, **`RegisterLoginAndLogOut.txt`**, **`TransferHistory.txt`** and **`Currencies.txt`**) must be located in the same directory as the code (**`.cpp`**) file. 
 
-The program uses relative paths to read and write data. If these files are missing from the project folder, the system will not be able to load or save any records.
+2- The program uses relative paths to read and write data. If these files are missing from the project folder, the system will not be able to load or save any records.
+
+3- Do not change any folder names within the main project folder, and do not change the project folder structure, to avoid any errors.
 
 ## ⚠️ Important Note
 
