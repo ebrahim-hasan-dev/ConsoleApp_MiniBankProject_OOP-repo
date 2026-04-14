@@ -1,6 +1,6 @@
 ﻿# 🏦 Simple Bank Management System (C++)
 
-A robust console-based application built with **C++** using a functional programming approach. This system manages banking operations, customer data, and administrative user controls with a sophisticated permission system.
+A robust console-based application built with **C++** using a Object Oriented Programming approach. This system manages banking operations, customer data, and administrative user controls with a sophisticated permission system with login and logout logs, and use my custom classes like clsDate, clsInput, clsUtil, clsString and clsValidate.
 
 ---
 
@@ -13,11 +13,22 @@ A robust console-based application built with **C++** using a functional program
 ### 💰 Transactions Management
 * **Deposit & Withdraw:** Securely manage account balances.
 * **Total Balances:** View a summary of all customer account balances.
+* **Transfer:** The ability to transfer funds from one account to another.
+* **Transfers History:** View all transfer history.
 
 ### 🔐 User & Security Management
 * **Login System:** Secure access requiring a Username and Password.
 * **User Administration:** Complete management of system users (Add, Edit, Delete, Find).
 * **Advanced Permissions:** A granular access control system using **Bitwise Operators** to grant or deny specific functionalities to users.
+
+### 💰 Currency Exchange
+* **List Currencies:** View all currencies in the world.
+* **Find Currency:** Display a currency information.
+* **Update Rate:** Update the rate of a specific currency.
+* **Currency Calculator:** The ability to convert a specific amount from one currency to another.
+
+### 👥 Login & logout
+* **Login & logout:** Displays user login and logout records along with date and time.
 
 ---
 
@@ -30,7 +41,7 @@ A robust console-based application built with **C++** using a functional program
 
 ### 💻 Tech Stack
 * **Language:** C++
-* **Paradigm:** Functional / Procedural Programming
+* **Paradigm:** Object Oriented programming
 * **Environment:** Console Application (CLI)
 
 ---
@@ -38,6 +49,10 @@ A robust console-based application built with **C++** using a functional program
 ### 📂 Project Structure
 * `Clients.txt`: Stores customer records.
 * `Users.txt`: Stores system user records and their permission masks.
+* `RegisterLogin.txt`: System login data storage.
+* `RegisterLoginAndLogOut.txt`: Storing login and logout transactions in the system.
+* `TransferHistory.txt`: Storing all transfer transactions from one account to another.
+* `Currencies.txt`: View all currencies in the world.
 
 ---
 
@@ -62,9 +77,13 @@ To access the system and explore all features, use the following administrator a
 
 ## ⚠️ Important Execution Note
 
-For the application to function correctly, the database files (**`Clients.txt`** and **`Users.txt`**) must be located in the same directory as the code (**`.cpp`**) file. 
+For the application to function correctly, the database files (**`Clients.txt`**, **`Users.txt`**, **`RegisterLogin.txt`**, **`RegisterLoginAndLogOut.txt`**, **`TransferHistory.txt`** and **`Currencies.txt`**) must be located in the same directory as the code (**`.cpp`**) file. 
 
 The program uses relative paths to read and write data. If these files are missing from the project folder, the system will not be able to load or save any records.
+
+## ⚠️ Important Note
+
+The password, username, and account number were encrypted with a simple algorithm before being recorded in text files. This applies to both users and customers, and the encryption was decrypted when this information was retrieved and displayed within the system.
 
 ---
 
