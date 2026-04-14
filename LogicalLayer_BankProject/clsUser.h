@@ -3,12 +3,12 @@
 #include <iostream>
 #include <vector>
 using namespace std;
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/MyLibrary/clsString.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/LogicalLayer_BankProject/clsPerson.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/MyLibrary/clsDate.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/MyLibrary/clsUtil.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/DataBaseLayer_BankProject/clsSaveData.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/DataBaseLayer_BankProject/clsGetData.h";
+#include "../MyLibrary/clsString.h";
+#include "../LogicalLayer_BankProject/clsPerson.h";
+#include "../MyLibrary/clsDate.h";
+#include "../MyLibrary/clsUtil.h";
+#include "../DataBaseLayer_BankProject/clsSaveData.h";
+#include "../DataBaseLayer_BankProject/clsGetData.h";
 
 
 #pragma warning(disable : 4996)

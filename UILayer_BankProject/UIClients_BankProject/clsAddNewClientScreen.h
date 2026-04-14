@@ -1,10 +1,10 @@
 #pragma once
 
 #include "clsScreen.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/MyLibrary/clsInput.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/LogicalLayer_BankProject/clsBanckClient.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/UILayer_BankProject/UIUsers_BankProject/clsAddNewUserScreen.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/MyLibrary/clsValidate.h";
+#include "../../MyLibrary/clsInput.h";
+#include "../../LogicalLayer_BankProject/clsBanckClient.h";
+#include "../UIUsers_BankProject/clsAddNewUserScreen.h";
+#include "../../MyLibrary/clsValidate.h";
 
 
 class clsAddNewClientScreen : protected clsScreen

@@ -3,8 +3,8 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-#include "d:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/LogicalLayer_BankProject/CurrentUser.h";
-#include "d:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/MyLibrary/clsDate.h";
+#include "../../LogicalLayer_BankProject/CurrentUser.h";
+#include "../../MyLibrary/clsDate.h";
 
 #pragma warning(disable : 4996)
 

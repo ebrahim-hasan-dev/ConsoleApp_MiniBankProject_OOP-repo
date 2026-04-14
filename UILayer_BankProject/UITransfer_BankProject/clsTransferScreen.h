@@ -1,10 +1,10 @@
 #pragma once
 
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\UILayer_BankProject\UIAllMenues_BankProject\clsScreen.h"
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\LogicalLayer_BankProject\clsBanckClient.h"
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\MyLibrary\clsInput.h"
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\UILayer_BankProject\UIUsers_BankProject\clsAddNewUserScreen.h"
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\UILayer_BankProject\UIClients_BankProject\clsDeleteClientScreen.h"
+#include "../../MyLibrary\clsInput.h"
+#include "../../LogicalLayer_BankProject\clsBanckClient.h"
+#include "../UIAllMenues_BankProject\clsScreen.h"
+#include "../UIUsers_BankProject\clsAddNewUserScreen.h"
+#include "../UIClients_BankProject\clsDeleteClientScreen.h"
 
 
 class clsTransferScreen : protected clsScreen 

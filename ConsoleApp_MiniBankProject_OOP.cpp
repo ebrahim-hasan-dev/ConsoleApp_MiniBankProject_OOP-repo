@@ -1,7 +1,8 @@
 
 #include <iostream>
 using namespace std;
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\UILayer_BankProject\UIRegisters_BankProject\clsLogInScreen.h";
+
+#include "../ConsoleApp_MiniBankProject_OOP-repo/UILayer_BankProject/UIRegisters_BankProject/clsLogInScreen.h";
 
 
 int main()

@@ -3,11 +3,11 @@
 #include <iostream>
 #include <vector>
 #include "clsPerson.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/MyLibrary/clsString.h";
+#include "../MyLibrary/clsString.h";
 #include "CurrentUser.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/MyLibrary/clsUtil.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/DataBaseLayer_BankProject/clsGetData.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/DataBaseLayer_BankProject/clsSaveData.h";
+#include "../MyLibrary/clsUtil.h";
+#include "../DataBaseLayer_BankProject/clsGetData.h";
+#include "../DataBaseLayer_BankProject/clsSaveData.h";
 using namespace std;
 
 

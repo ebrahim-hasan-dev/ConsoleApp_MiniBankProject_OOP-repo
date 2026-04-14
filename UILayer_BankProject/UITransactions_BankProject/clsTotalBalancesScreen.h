@@ -1,9 +1,9 @@
 #pragma once
 
 
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\UILayer_BankProject\UIAllMenues_BankProject\clsScreen.h";
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\LogicalLayer_BankProject\clsBanckClient.h";
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\MyLibrary\clsUtil.h";
+#include "../UIAllMenues_BankProject\clsScreen.h";
+#include "../../LogicalLayer_BankProject\clsBanckClient.h";
+#include "../../MyLibrary\clsUtil.h";
 
 
 

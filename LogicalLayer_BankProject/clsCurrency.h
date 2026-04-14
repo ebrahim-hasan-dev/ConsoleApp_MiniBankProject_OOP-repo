@@ -5,9 +5,9 @@
 #include <vector>
 #include <string>
 using namespace std;
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/DataBaseLayer_BankProject/clsSaveData.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/DataBaseLayer_BankProject/clsGetData.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/MyLibrary/clsString.h";
+#include "../DataBaseLayer_BankProject/clsSaveData.h";
+#include "../DataBaseLayer_BankProject/clsGetData.h";
+#include "../MyLibrary/clsString.h";
 
 
 class clsCurrency

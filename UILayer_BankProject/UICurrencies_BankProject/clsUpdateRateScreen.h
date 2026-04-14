@@ -1,10 +1,10 @@
 #pragma once
 
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\UILayer_BankProject\UIAllMenues_BankProject/clsScreen.h";
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\LogicalLayer_BankProject/clsCurrency.h";
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\MyLibrary/clsInput.h"
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\UILayer_BankProject\UIUsers_BankProject/clsAddNewUserScreen.h"
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\UILayer_BankProject\UICurrencies_BankProject/clsFindCurrencyScreen.h"
+#include "../../MyLibrary/clsInput.h"
+#include "../../LogicalLayer_BankProject/clsCurrency.h";
+#include "../../UILayer_BankProject\UIAllMenues_BankProject/clsScreen.h";
+#include "../../UILayer_BankProject\UIUsers_BankProject/clsAddNewUserScreen.h"
+#include "../../UILayer_BankProject\UICurrencies_BankProject/clsFindCurrencyScreen.h"
 
 
 class clsUpdateRateScreen : protected clsScreen

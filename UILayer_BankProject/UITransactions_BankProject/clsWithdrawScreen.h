@@ -1,8 +1,8 @@
 #pragma once
 
 
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\UILayer_BankProject\UIClients_BankProject\clsDeleteClientScreen.h";
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\UILayer_BankProject\UIUsers_BankProject\clsAddNewUserScreen.h";
+#include "../UIClients_BankProject\clsDeleteClientScreen.h";
+#include "../UIUsers_BankProject\clsAddNewUserScreen.h";
 
 
 class clsWithdrawScreen : protected clsScreen

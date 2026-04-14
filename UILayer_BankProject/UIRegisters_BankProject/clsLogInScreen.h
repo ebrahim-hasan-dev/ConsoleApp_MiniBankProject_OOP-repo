@@ -1,10 +1,10 @@
 #pragma once
 
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\UILayer_BankProject\UIAllMenues_BankProject/clsScreen.h";
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\LogicalLayer_BankProject/clsUser.h";
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\MyLibrary/clsInput.h";
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\UILayer_BankProject\UIAllMenues_BankProject\clsMainMenueScreen.h";
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\LogicalLayer_BankProject/CurrentUser.h";
+#include "../../LogicalLayer_BankProject/clsUser.h";
+#include "../../MyLibrary/clsInput.h";
+#include "../../LogicalLayer_BankProject/CurrentUser.h";
+#include "../UIAllMenues_BankProject/clsScreen.h";
+#include "../UIAllMenues_BankProject\clsMainMenueScreen.h";
 
 
 

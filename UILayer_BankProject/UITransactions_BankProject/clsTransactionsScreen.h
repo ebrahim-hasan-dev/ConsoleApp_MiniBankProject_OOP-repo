@@ -3,8 +3,8 @@
 #include "clsDepositScreen.h";
 #include "clsWithdrawScreen.h";
 #include "clsTotalBalancesScreen.h";
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\UILayer_BankProject\UITransfer_BankProject\clsTransferScreen.h"
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\UILayer_BankProject\UITransfer_BankProject\clsTransferHistoryScreen.h"
+#include "../UITransfer_BankProject\clsTransferScreen.h"
+#include "../UITransfer_BankProject\clsTransferHistoryScreen.h"
 
 
 class clsTransactionsScreen : protected clsScreen

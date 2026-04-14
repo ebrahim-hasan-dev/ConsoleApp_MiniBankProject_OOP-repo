@@ -1,16 +1,16 @@
 #pragma once
 
 
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/UILayer_BankProject/UIClients_BankProject/clsClientsListScreen.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/UILayer_BankProject/UIClients_BankProject/clsUpdataClientScreen.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/UILayer_BankProject/UIClients_BankProject/clsFindClientScreen.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/UILayer_BankProject/UITransactions_BankProject/clsTransactionsScreen.h";
+#include "../UIClients_BankProject/clsClientsListScreen.h";
+#include "../UIClients_BankProject/clsUpdataClientScreen.h";
+#include "../UIClients_BankProject/clsFindClientScreen.h";
+#include "../UITransactions_BankProject/clsTransactionsScreen.h";
 #include "clsManageUsersMenueScreen.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/LogicalLayer_BankProject/CurrentUser.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/LogicalLayer_BankProject/ClsUser.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/UILayer_BankProject/UIRegisters_BankProject/clsLoginsRegisterScreen.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/UILayer_BankProject/UIRegisters_BankProject/clsLoginsAndLogOutsRegisterScreen.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/UILayer_BankProject/UICurrencies_BankProject/clsCurrencyExchangeMenueScreen.h"
+#include "../../LogicalLayer_BankProject/CurrentUser.h";
+#include "../../LogicalLayer_BankProject/ClsUser.h";
+#include "../UIRegisters_BankProject/clsLoginsRegisterScreen.h";
+#include "../UIRegisters_BankProject/clsLoginsAndLogOutsRegisterScreen.h";
+#include "../UICurrencies_BankProject/clsCurrencyExchangeMenueScreen.h"
 
 
 

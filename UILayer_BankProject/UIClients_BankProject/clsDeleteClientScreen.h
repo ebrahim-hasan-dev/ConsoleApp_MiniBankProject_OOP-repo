@@ -2,7 +2,8 @@
 
 
 #include "clsAddNewClientScreen.h";
-#include "D:\Visual Studio 2022 Projects\ConsoleApp_MiniBankProject_OOP\UILayer_BankProject\UIUsers_BankProject/clsAddNewUserScreen.h";
+#include "../UIUsers_BankProject/clsAddNewUserScreen.h";
+
 
 class clsDeleteClientScreen : protected clsScreen
 {

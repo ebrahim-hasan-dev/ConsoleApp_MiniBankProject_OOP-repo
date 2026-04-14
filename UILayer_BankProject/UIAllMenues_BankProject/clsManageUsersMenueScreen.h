@@ -3,12 +3,12 @@
 
 #include <iostream>
 #include "clsScreen.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/MyLibrary/clsInput.h"
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/UILayer_BankProject/UIUsers_BankProject/clsUsersListScreen.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/UILayer_BankProject/UIUsers_BankProject/clsAddNewUserScreen.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/UILayer_BankProject/UIUsers_BankProject/clsDeleteUserScreen.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/UILayer_BankProject/UIUsers_BankProject/clsUpdateUserScreen.h";
-#include "D:/Visual Studio 2022 Projects/ConsoleApp_MiniBankProject_OOP/UILayer_BankProject/UIUsers_BankProject/clsFindUserScreen.h";
+#include "../../MyLibrary/clsInput.h"
+#include "../UIUsers_BankProject/clsUsersListScreen.h";
+#include "../UIUsers_BankProject/clsAddNewUserScreen.h";
+#include "../UIUsers_BankProject/clsDeleteUserScreen.h";
+#include "../UIUsers_BankProject/clsUpdateUserScreen.h";
+#include "../UIUsers_BankProject/clsFindUserScreen.h";
 using namespace std;
 
 
